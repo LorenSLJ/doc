@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-18 11:09:53
- * @LastEditTime: 2021-03-18 13:44:34
+ * @LastEditTime: 2021-03-18 13:53:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /doc/webpack.config.js
@@ -16,7 +16,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bunder.js'
+    filename: 'bundle.js'
   },
   module: {
     rules: [
