@@ -1,14 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-18 11:42:09
- * @LastEditTime: 2021-03-18 13:13:04
+ * @LastEditTime: 2021-03-18 16:47:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /doc/src/App.vue
 -->
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    {{message}}
   </div>
 </template>
 
