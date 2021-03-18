@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-18 11:39:21
- * @LastEditTime: 2021-03-18 14:33:51
+ * @LastEditTime: 2021-03-18 17:17:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /doc/src/main.js
@@ -12,6 +12,7 @@ import App from './App.vue'
 
 import { Button } from 'vant'
 import 'vant/lib/index.css'
+import './assets/styles/iconfont.css'
 
 Vue.use(Button)
 

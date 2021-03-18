@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-18 11:09:53
- * @LastEditTime: 2021-03-18 16:21:28
+ * @LastEditTime: 2021-03-18 19:11:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /doc/webpack.config.js
@@ -21,15 +21,29 @@ module.exports = {
   },
   module: {
     rules: [
+      // vue loader
       {
         test: /\.vue$/,
         loader: 'vue-loader'
       },
+      // css loader
       {
         test: /\.css$/,
         use: [
           'style-loader',
           'css-loader'
+        ]
+      },
+      // iconfont loader
+      {
+        test: /\.(eot|svg|ttf|woff)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'assets/font'
+            }
+          }
         ]
       }
     ]
