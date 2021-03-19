@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vant": "^2.12.9",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "babel-loader": "^8.2.2",
